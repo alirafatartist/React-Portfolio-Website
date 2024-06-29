@@ -82,6 +82,7 @@ export default function Home() {
                 <Image
                   src={avatar}
                   className="flex justify-center items-center"
+                  alt="img"
                 />
               </span>
             </div>
@@ -92,8 +93,8 @@ export default function Home() {
             <h3 className="text-2xl py-2 md:text-3xl">Services I offer</h3>
             <p>
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for{" "}
-              <span className="text-teal-600">agencies</span> consulted for{" "}
+              developer, I've done remote work for
+              <span className="text-teal-600">agencies</span> consulted for
               <span className="text-teal-600">startups</span> and collaborated
               with talanted people to create digital products for both business
               and consumer use.
@@ -104,7 +105,7 @@ export default function Home() {
             </p>
             <div className="mt-10 flex items-center justify-between flex-wrap">
               <div className="flex justify-center items-center gap-4 cursor-pointer shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] rounded-[0.1rem] flex-col w-72 p-10 h-[30rem] md:w-96">
-                <Image src={avatar1} className="w-20" />
+                <Image src={avatar1} className="w-20" alt="img" />
                 <p>Beautiful Designs</p>
                 <p className="text-center">
                   Creating elegant designs suited for your needs following core
@@ -117,7 +118,7 @@ export default function Home() {
                 <p>Indesign</p>
               </div>
               <div className="flex justify-center items-center gap-4 cursor-pointer shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] rounded-[0.1rem] flex-col w-72 p-10 h-[30rem] md:w-96">
-                <Image src={avatar2} className="w-20" />
+                <Image src={avatar2} className="w-20" alt="img" />
                 <p>Code your dream project</p>
                 <p className="text-center">
                   Do you have an idea for your next great website? Let's make it
@@ -130,7 +131,7 @@ export default function Home() {
                 <p>Indesign</p>
               </div>
               <div className="flex justify-center items-center gap-4 cursor-pointer shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] rounded-[0.1rem] flex-col w-72 p-10 h-[30rem] md:w-96">
-                <Image src={avatar3} className="w-20" />
+                <Image src={avatar3} className="w-20" alt="img" />
                 <p>Consulting</p>
                 <p className="text-center">
                   Are you interested in feedback for your current project? I can
@@ -163,19 +164,19 @@ export default function Home() {
           </div>
           <div className="mt-10 flex justify-between gap-2 flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image src={gall1} className="" />
+              <Image src={gall1} className="" alt="img" />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={gall2} className="" />
+              <Image src={gall2} className="" alt="img" />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={gall3} className="" />
+              <Image src={gall3} className="" alt="img" />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={gall4} className="" />
+              <Image src={gall4} className="" alt="img" />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={gall5} className="" />
+              <Image src={gall5} className="" alt="img" />
             </div>
           </div>
         </section>
